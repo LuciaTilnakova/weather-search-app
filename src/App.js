@@ -4,7 +4,12 @@ function App() {
   return (
     <div className="App">
       <h1>Weather App</h1>
-      <p>hello</p>
+      <p>
+        Coded by LuciaTilnakova and is {""}
+        <a href="https://github.com/LuciaTilnakova/weather-search-app">
+          open-sourced
+        </a>
+      </p>
     </div>
   );
 }
