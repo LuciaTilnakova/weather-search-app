@@ -1,0 +1,12 @@
+.App {
+  background: #defbfc;
+}
+
+.App .container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.App a {
+  text-decoration: none;
+}
