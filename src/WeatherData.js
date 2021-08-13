@@ -13,10 +13,7 @@ export default function WeatherData(props) {
       </ul>
       <div className="row">
         <div className="col-6">
-          <img
-            src="https://ssl.gstatic.com/onebox/weather/48/partly_cloudy.png"
-            alt="weather"
-          ></img>
+          <img src={props.data.icon} alt="weather"></img>
           <span className="temperature">
             {Math.round(props.data.temperature)}
           </span>
