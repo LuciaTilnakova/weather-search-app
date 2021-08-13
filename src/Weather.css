@@ -26,17 +26,7 @@
   padding: 0;
 }
 
-.Weather .temperature {
-  padding-left: 15px;
-  font-weight: 500;
-  font-size: 50px;
-}
-
-.Weather .unit {
-  position: relative;
-  top: -23px;
-}
-
 .Weather .right-side-list {
+  margin-top: 20px;
   padding-left: 60px;
 }
